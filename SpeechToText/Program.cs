@@ -25,7 +25,7 @@ namespace SpeechToText {
                 //CreateVoiceSignatureByUsingBody().Wait();
             }
 
-            await ConversationWithPullAudioStreamAsync_B();
+            await ConversationWithPullAudioStreamAsync();
         }
 
         static async Task TranscribirSimple(SpeechConfig config, AudioConfig audioInput) {
